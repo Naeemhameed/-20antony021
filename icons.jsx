@@ -1,0 +1,75 @@
+import {
+    FaDog,
+    FaBabyCarriage,
+    FaBroom,
+    FaTruckMoving,
+    FaLeaf,
+    FaToolbox,
+    FaHome,
+    FaCamera,
+    FaUserMd,
+    FaUsers,
+    FaChalkboardTeacher,
+    FaLaptop,
+    FaPaintBrush,
+    FaPlug,
+    FaSnowflake,
+    FaGlobe,
+    FaHammer,
+    FaShieldAlt,
+    FaWrench,
+    FaTruckPickup,
+    FaFireExtinguisher,
+    FaTree,
+    FaMountain,
+    FaTools,
+} from "react-icons/fa";
+import { MdEvent, MdSecurity, MdBuild, MdOutlineCleaningServices, MdOutlineConstruction } from "react-icons/md";
+
+// Updated mapping of category headers to specific icons
+export const iconMapper = {
+    // DOMESTIC
+    "animals & pets": FaDog,
+    "architecture & design": FaHome,
+    "babysitting": FaBabyCarriage,
+    "cleaning": FaBroom,
+    "moving & storage": FaTruckMoving,
+    "outdoor & garden": FaLeaf,
+    "other": FaToolbox,
+
+    // EVENT & ENTERTAINMENT
+    "caterers": MdEvent,
+    "entertainers": FaUsers,
+    "party rentals & supplies": FaTruckPickup,
+    "photography & videography": FaCamera,
+    "wedding": FaUsers,
+    "event planner": MdEvent,
+    "event decoration": FaPaintBrush,
+    "other": FaToolbox,
+
+    // TRADE
+    "alarm & security": MdSecurity,
+    "building & construction": MdBuild,
+    "electrical & gas": FaPlug,
+    "flooring": FaHammer,
+    "glass": FaMountain,
+    "painting & plastering": FaPaintBrush,
+    "plumbing": FaWrench,
+    "roofing": FaShieldAlt,
+    "appliance repairs": FaTools,
+    "hvac": FaSnowflake,
+    "pest control": FaFireExtinguisher,
+    "landscape & outdoor": FaTree,
+    "concrete": FaMountain,
+    "fencing & gate": FaHammer,
+    "carpentry": FaTools,
+    "other": FaToolbox,
+
+    // OTHER
+    "experiences & tourism": FaGlobe,
+    "tuition & learning": FaChalkboardTeacher,
+    "computer repairs": FaLaptop,
+    "handy man": FaWrench,
+    "signage & graphic": FaPaintBrush,
+    "other": FaToolbox,
+};
